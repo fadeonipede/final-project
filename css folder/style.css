@@ -1,0 +1,134 @@
+/* creates border around main elements */
+.border{ border: 0.5px solid black;
+        border-radius: 8px;
+        margin: 5px;
+        padding: 5px;
+        /* syntax || box-shadow: none|h-offset v-offset blur spread color */   
+}
+body{  
+        height: 300vh;
+        text-align: center;
+        padding: 5px;
+        background-position: center center;    
+}
+.left{ float: left; width: 50%; }
+    
+.right{ float: right; width: 50%; }
+    
+footer{ clear: both; }
+nav{
+    position:sticky;
+    top: 0%;
+    width: 98%;
+    margin: 0 80px;
+    word-spacing: 5px;
+    background-color:#08094b;
+    height: 30px;
+    text-decoration: none;
+text-align: right;}
+
+
+
+header{
+        background-color: a;
+}
+section{
+        font-size: large;
+        color: purple
+        
+}
+article{}
+                  
+
+a{ text-decoration: none;
+  margin: 0 50px;
+  word-spacing:5px;}
+      
+    
+    /* set height of section, article, and aside elements */
+    /* pixel calculation: section(250) + article(250) + border(section(0.5 + 0.5) + article(0.5 + 0.5))  + margin(5) = 507px */
+section { height: 400px; }
+aside{ height: 200px; }
+    
+    /* set background color and align text to the center */
+body{
+        padding: 5px;
+        background-color: lightgrey;
+        text-align: center;
+        height: 200vh;
+        background-image: url(GIF/);
+        background-size: cover;
+        color: black;
+        /* syntax || text-shadow: h-shadow v-shadow blur-radius color */
+        text-shadow: 0 0 5px white;
+}a.clearfix{
+        clear: both;}
+    
+    /* creates dashed border around h2 elements */
+    /* making display an inline-block allows for the border to wrap content */
+h2{
+        border: 0.5px dotted white;
+       display: inline-block;
+        padding: 20px;
+}a:link{ text-decoration: none;
+    
+}
+a:visited{
+        color:white;
+        text-decoration: none;}
+a:hover {
+        padding: 10px;
+        background-color: black;}
+    
+:active{
+        color: green}
+h6,p{
+text-align: center;}
+.p{
+        text-align: justify;
+}
+section{
+        background-image: url(imag/bry9\ copy.avif);
+        font-size: large;
+        background-color:lightgrey;
+        color: purple
+        
+       
+        
+}
+aside{
+background-color: #219ebc;
+text-decoration-color: white;
+}
+footer{
+        background-color: lightgray;
+}
+             
+header{}
+.fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;}
+
+.fa:hover{
+        opacity: 0.7;}  
+.fa-youtube{
+        background-color: #bb0000;
+        color: white;
+}            
+             
+.fa-facebook{
+        background: #3B5998;
+        color: white;
+}
+.fa-instagram{
+        background-color: #125688;
+        color: white;
+}
+
+p{      font-size: smaller; 
+        text-align: center;}
