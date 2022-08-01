@@ -3,41 +3,53 @@
         border-radius: 8px;
         margin: 5px;
         padding: 5px;
-        /* syntax || box-shadow: none|h-offset v-offset blur spread color */   
+/* syntax || box-shadow: none|h-offset v-offset blur spread color */   
+
 }
-body{  
-        height: 300vh;
-        text-align: center;
+body{  text-align: center;
         padding: 5px;
-        background-position: center center;    
-}
+        background-position: center center;
+        background-color: #DADADA;
+        text-align: center;
+        height: 230vh;
+        background-size: cover;
+        color: black;
+        /* syntax || text-shadow: h-shadow v-shadow blur-radius color */
+        text-shadow: 0 0 5px white;}
+
 .left{ float: left; width: 50%; }
     
 .right{ float: right; width: 50%; }
     
-footer{ clear: both; }
+footer{ clear: both;
+height: 120px; }
+
 nav{
     position:sticky;
     top: 0%;
-    width: 98%;
+    width: 100%;
     margin: 0 80px;
     word-spacing: 5px;
-    background-color:#08094b;
-    height: 30px;
+    background-color:black;
+    height: 60px;
+    padding: 30px;
     text-decoration: none;
-text-align: right;}
+text-align: center;}
 
 
 
 header{
         background-color: a;
+        height: 30px;
+        
 }
 section{
         font-size: large;
         color: purple
         
+
 }
-article{}
+
                   
 
 a{ text-decoration: none;
@@ -47,21 +59,17 @@ a{ text-decoration: none;
     
     /* set height of section, article, and aside elements */
     /* pixel calculation: section(250) + article(250) + border(section(0.5 + 0.5) + article(0.5 + 0.5))  + margin(5) = 507px */
-section { height: 400px; }
-aside{ height: 200px; }
+section { height: 500px; }
+aside{ height: 340px;
+        background-color: #64959E;
+        text-decoration-color: white;
+        letter-spacing:1px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+}
     
     /* set background color and align text to the center */
-body{
-        padding: 5px;
-        background-color: lightgrey;
-        text-align: center;
-        height: 200vh;
-        background-image: url(GIF/);
-        background-size: cover;
-        color: black;
-        /* syntax || text-shadow: h-shadow v-shadow blur-radius color */
-        text-shadow: 0 0 5px white;
-}a.clearfix{
+a.clearfix{
         clear: both;}
     
     /* creates dashed border around h2 elements */
@@ -83,51 +91,56 @@ a:hover {
 :active{
         color: green}
 h6,p{
-text-align: center;}
-.p{
-        text-align: justify;
-}
+text-align: justify;}
+
 section{
         background-image: url(imag/bry9\ copy.avif);
         font-size: large;
         background-color:lightgrey;
-        color: purple
-        
+        color: purple     
        
-        
 }
-aside{
-background-color: #219ebc;
-text-decoration-color: white;
-}
+
 footer{
         background-color: lightgray;
 }
+* { box-sizing: border-box;}
+      
+.box {
+        float: left;
+        width: 50%;
+        padding: 50px;
+        height: 300px;}
+      
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;}
              
-header{}
+
 .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
+        padding: 10px;
+        font-size: 40px;
+        width: 50px;
         text-align: center;
         text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 50%;}
+        margin: 5px 2px;}
+        
 
 .fa:hover{
-        opacity: 0.7;}  
+        opacity: 0.9;}  
 .fa-youtube{
-        background-color: #bb0000;
-        color: white;
+        background-color:#bb0000;
+        color: black;
 }            
              
 .fa-facebook{
-        background: #3B5998;
-        color: white;
+        background:#3B5998;
+        color: black;
 }
 .fa-instagram{
-        background-color: #125688;
-        color: white;
+        background-color:#007bb5;
+        color:black;
 }
 
 p{      font-size: smaller; 
